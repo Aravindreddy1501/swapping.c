@@ -9,15 +9,15 @@ int main()
 	printf(Enter the value of b );
 	scanf(%d,&b);	
 	
-	Numbers before swapping
+	//Numbers before swapping
 	printf(Before swapping... a %d, b %dn,a,b);
 	
-	swapping numbers
+	//swapping numbers
 	a = a+b;	
 	b = a-b;	
   	a = a-b; 
 	
-	Numbers after swapping 
+	//Numbers after swapping 
 	printf(After swapping...  a %d, b %dn,a,b);
 
 	return 0;
